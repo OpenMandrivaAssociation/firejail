@@ -39,6 +39,8 @@ autoreconf -fi
 %{_mandir}/*/*
 %config(noreplace) %{_sysconfdir}/firejail
 
+%{_datadir}/gtksourceview-5/language-specs/firejail-profile.lang
+
 %{_datadir}/vim/vimfiles/ftdetect/firejail.vim
 %{_datadir}/vim/vimfiles/syntax/firejail.vim   
 
