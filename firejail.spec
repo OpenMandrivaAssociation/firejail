@@ -5,7 +5,7 @@ Summary: Linux namepaces sandbox program
 License: GPLv2+
 Group: Development/Tools
 Source0: https://github.com/netblue30/firejail/releases/download/%{version}/firejail-%{version}.tar.xz
-URL: http://github.com/netblue30/firejail
+URL: https://github.com/netblue30/firejail
 Requires: xdg-dbus-proxy
 
 %description
