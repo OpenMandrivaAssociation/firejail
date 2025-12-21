@@ -9,6 +9,11 @@ URL: https://github.com/netblue30/firejail
 
 Requires: xdg-dbus-proxy
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Firejail is a SUID sandbox program that reduces the risk of security
 breaches by restricting the running environment of untrusted applications
